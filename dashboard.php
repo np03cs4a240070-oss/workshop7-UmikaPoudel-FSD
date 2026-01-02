@@ -10,16 +10,16 @@ $theme = $_COOKIE['theme'] ?? 'light';
 ?>
 
 <!DOCTYPE html>
-<html>
-<head>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body class="<?= $theme ?>">
+    <html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body class="<?= $theme ?>">
 
-<h2>Welcome <?= htmlspecialchars($_SESSION['name']) ?></h2>
+        <h2>Welcome <?= htmlspecialchars($_SESSION['name']) ?></h2>
 
-<a href="preference.php">Change Theme</a> |
-<a href="logout.php">Logout</a>
+        <a href="preference.php">Change Theme</a> |
+        <a href="logout.php">Logout</a>
 
-</body>
+    </body>
 </html>
