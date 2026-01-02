@@ -1,0 +1,93 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Light Theme */
+body.light {
+    background-color: #f4f6f8;
+    color: #222;
+}
+
+/* Dark Theme */
+body.dark {
+    background-color: #121212;
+    color: #f1f1f1;
+}
+
+/* Body styling */
+body {
+    min-height: 100vh;
+    padding: 40px;
+}
+
+/* Headings */
+h2 {
+    margin-bottom: 20px;
+}
+
+/* Forms */
+form {
+    max-width: 400px;
+    margin-top: 20px;
+    padding: 25px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 6px;
+}
+
+/* Dark mode form */
+body.dark form {
+    background-color: #1e1e1e;
+}
+
+/* Inputs & Select */
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Buttons */
+button, input[type="submit"] {
+    padding: 10px;
+    width: 100%;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover,
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Links */
+a {
+    display: inline-block;
+    margin-top: 15px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+body.dark a {
+    color: #66b2ff;
+}
+
+/* Messages */
+p {
+    margin-top: 10px;
+}
+
+p[style*="color:red"],
+p[style*="color:green"] {
+    font-weight: bold;
+}
